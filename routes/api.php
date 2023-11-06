@@ -23,3 +23,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/getEnrolls24/{token}', [EnrollmentController::class, 'getEnrolls24']);
 
+// Implement Token Auth later
+
+//Route::middleware(['auth:sanctum'])->get('/getEnrolls24/{token}', [EnrollmentController::class, 'getEnrolls24']);
